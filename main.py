@@ -36,4 +36,8 @@ while True:
     elif choice == "2":
         explore_symptoms()
          elif choice == "2":
-        explore_symptoms()
+        explore_symptoms()for result in results:
+            print(result)
+    else:
+        print(f"No {category}s found.")
+
